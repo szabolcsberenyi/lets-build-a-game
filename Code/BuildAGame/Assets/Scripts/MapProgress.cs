@@ -19,7 +19,7 @@ public class MapProgress : MonoBehaviour
     private void Awake()
     {
         // Uncomment out below to automatically show map progress when the OverworldMap canvas is enabled
-        ShowMapProgress();
+        // ShowMapProgress();
     }
 
     // TODO: This needs to get called by the UI somewhere? Or we can have it done automatically when map canvas is enabled
@@ -33,5 +33,11 @@ public class MapProgress : MonoBehaviour
             GameObject newObject = Instantiate(imagePrefab, transform);
             newObject.GetComponent<Image>().sprite = entry.mapProgressImage; 
         }
+    }
+
+    // Method to add visited points
+    public void AddVisitedMapPoint(MapPointScriptable mapPointToAdd)
+    {
+        mapPointsReached.Add(mapPointToAdd);
     }
 }
