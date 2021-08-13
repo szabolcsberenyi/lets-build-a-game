@@ -41,21 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: BackgroundPanel
     uniqueID: 1802236277
     locked: 0
-  - name: Sky1
-    uniqueID: 1322040769
-    locked: 0
-  - name: Sky2
-    uniqueID: 2756010949
-    locked: 0
-  - name: BG1
-    uniqueID: 2833365175
-    locked: 0
-  - name: ForegroundWater
-    uniqueID: 45031501
-    locked: 0
-  - name: WaterEffects
-    uniqueID: 4063883167
+  - name: ForegroundObjects
+    uniqueID: 2196965471
     locked: 0
