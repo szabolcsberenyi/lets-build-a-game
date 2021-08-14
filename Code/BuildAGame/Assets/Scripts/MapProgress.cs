@@ -25,8 +25,6 @@ public class MapProgress : MonoBehaviour
     // TODO: This needs to get called by the UI somewhere? Or we can have it done automatically when map canvas is enabled
     public void ShowMapProgress()
     {
-        Debug.Log("ShowMapProgress called");
-        
         // Instantiate each progress sprite as UI image
         foreach (MapPointScriptable entry in mapPointsReached)
         {
@@ -35,7 +33,7 @@ public class MapProgress : MonoBehaviour
         }
     }
 
-    // Method to add visited points
+    // Method to add visited points to the progress list
     public void AddVisitedMapPoint(MapPointScriptable mapPointToAdd)
     {
         mapPointsReached.Add(mapPointToAdd);
