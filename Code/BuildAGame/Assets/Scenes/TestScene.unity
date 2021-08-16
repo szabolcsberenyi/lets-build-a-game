@@ -485,7 +485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1963365173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,9 +579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda083f0b97bc074b8fab09353d543b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapPointsReached:
-  - {fileID: 11400000, guid: 1fdaee64dccb6ea42acfb0e513cb6ad6, type: 2}
-  - {fileID: 11400000, guid: 6a520191428761745994c71b29f20a28, type: 2}
+  mapPointsReached: []
   imagePrefab: {fileID: 5780205429698743392, guid: e49d2279988320a4a952977ffba49f34,
     type: 3}
 --- !u!1 &2073925027

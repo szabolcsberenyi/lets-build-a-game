@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5912010849165308180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5912010849165308182}
+  - component: {fileID: 5912010849165308181}
+  - component: {fileID: 5912010849165308183}
+  m_Layer: 0
+  m_Name: JourneyManagerTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5912010849165308182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5912010849165308180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5912010849165308181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5912010849165308180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25dd99ebea84cb646bb1962470c8615a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outcomesToDrawFrom:
+  - {fileID: 11400000, guid: 80d80d43274ec894a8f51358c8984836, type: 2}
+  - {fileID: 11400000, guid: 913b8f7365f2eae49979b725e0a19e84, type: 2}
+  - {fileID: 11400000, guid: 091c4484938bd934dbe7bedc78017869, type: 2}
+  - {fileID: 11400000, guid: d7c4fa05ca60d9b4e8e676db3c957c94, type: 2}
+  - {fileID: 11400000, guid: db60b2e11ea24934d80299fc893b5efd, type: 2}
+  - {fileID: 11400000, guid: 6a520191428761745994c71b29f20a28, type: 2}
+  - {fileID: 11400000, guid: 1fdaee64dccb6ea42acfb0e513cb6ad6, type: 2}
+  averageRandomEventsPerMinute: 60
+--- !u!114 &5912010849165308183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5912010849165308180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8736e160760f3d74eb5b6df9bd781e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapPointRef: {fileID: 11400000, guid: 1fdaee64dccb6ea42acfb0e513cb6ad6, type: 2}
+  journeyManagerRef: {fileID: 5912010849165308181}
