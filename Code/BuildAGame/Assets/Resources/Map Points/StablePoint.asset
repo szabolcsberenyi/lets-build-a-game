@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fc00d3bd7c21d40bf4419d28cb78a8, type: 3}
+  m_Name: StablePoint
+  m_EditorClassIdentifier: 
+  startingDrawChance: 5
+  outcomeType: 7
+  mapPointName: Stable
+  mapPointDescription: Stable for horse shopping
+  travelTime: 600
+  mapPointImage: {fileID: 0}
+  mapProgressImage: {fileID: 21300000, guid: 427e2d01a5b4dd54e96fc2d56040e1cd, type: 3}
+  followingMapPoint:
+  - {fileID: 11400000, guid: 14674d62329f04d42a3649afef1c34b7, type: 2}
+  mapPointPosition: {x: -185, y: -55}

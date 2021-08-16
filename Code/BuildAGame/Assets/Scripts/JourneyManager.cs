@@ -71,7 +71,8 @@ public class JourneyManager : MonoBehaviour
         }
     }
 
-    // TODO: Do we need method to add remove outcomes at runtime?
+    // TODO: Do we need method to add/remove outcomes at runtime?
+
 
     private void DestinationReached()
     {
@@ -138,7 +139,7 @@ public class JourneyManager : MonoBehaviour
             case OutcomeTypeEnum.Breakdown:
                 // Load breakdown scene
                 // BreakdownScriptable breakdownOutcome = outcome as BreakdownScriptable;
-                // SceneManager.LoadScene(combatOutcome.sceneIndex);
+                // SceneManager.LoadScene(breakdownOutcome.sceneIndex);
 
                 Debug.Log("Breakdown Event Identified");
                 break;

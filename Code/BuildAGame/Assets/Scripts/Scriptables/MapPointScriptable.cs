@@ -28,6 +28,9 @@ public class MapPointScriptable : OutcomeTypeAbstractScriptable
     [Tooltip ("Any map points that come directly after this map point")]
     public List<MapPointScriptable> followingMapPoint = new List<MapPointScriptable>();
 
+    [Tooltip("The position where this point should be initialized.")]
+    public Vector2 mapPointPosition;
+
 
     private void OnEnable()
     {
