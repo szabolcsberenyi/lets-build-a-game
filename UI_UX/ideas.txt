@@ -1,0 +1,29 @@
+Start game
+
+Optional: 'Press any button to continue' - page
+
+Main menu:
+  - TITLE:
+    - MACHINES EXILED
+  - BUTTONS:
+    - Start Gane
+    - About the game
+    - IF sound also in menu: sound on/off (sound level option)
+    - Credits
+    - Exit
+  - BACKGROUND
+    
+Pause:
+  - BUTTONS:
+    - Resume
+    - Save (optional)
+    - Quit to main menu
+    
+About the game:
+  - text, images, short summary of the game (will be detailed in another file)
+
+Credits:
+  - List of people who worked on the game, similiar to move credits
+  - either presentation-like (text disappear. next text appears), or text moving upwards
+  - will be accessible from the main menu and will be automatically played at the end of the game
+  - return to main menu button (during or after the animation)
